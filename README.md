@@ -36,45 +36,12 @@ An Arduino-based assistive device that helps visually impaired individuals detec
 
 # Circuit Diagram
 
-![Smart Blind Stick Circuit Diagram](![alt text](<Arduino Circuit Diagram.png>)
+
 
 ---
 ## 💻 Arduino Code
-#define trigPin 9
-#define echoPin 10
-#define buzzer 8
+See [code/smart_blind_stick.ino](code/smart_blind_stick.ino)
 
-void setup() {
-  pinMode(trigPin, OUTPUT);
-  pinMode(echoPin, INPUT);
-  pinMode(buzzer, OUTPUT);
-  Serial.begin(9600);
-}
-
-void loop() {
-  long duration, distance;
-
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
-
-  duration = pulseIn(echoPin, HIGH);
-  distance = duration * 0.034 / 2;
-
-  Serial.print("Distance: ");
-  Serial.print(distance);
-  Serial.println(" cm");
-
-  if (distance < 50) {
-    digitalWrite(buzzer, HIGH);
-  } else {
-    digitalWrite(buzzer, LOW);
-  }
-
-  delay(500);
-}
 
 # Logic Summary
 
