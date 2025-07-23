@@ -12,11 +12,11 @@ An Arduino-based assistive device that helps visually impaired individuals detec
 
 # Technologies & Skills Used
 
-- **Arduino Programming**
-- **Embedded Systems**
-- **Sensor Integration**
-- **Ultrasonic Sensing (HC-SR04)**
-- **Prototyping and Testing**
+- Arduino Programming
+- Embedded Systems
+- Sensor Integration
+- Ultrasonic Sensing (HC-SR04)
+- Prototyping and Testing
 
 ---
 
@@ -39,7 +39,7 @@ An Arduino-based assistive device that helps visually impaired individuals detec
 
 
 ---
-## 💻 Arduino Code
+# Arduino Code
 
 
 # Logic Summary
