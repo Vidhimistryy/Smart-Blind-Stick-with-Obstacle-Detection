@@ -40,7 +40,6 @@ An Arduino-based assistive device that helps visually impaired individuals detec
 
 ---
 ## 💻 Arduino Code
-See [code/smart_blind_stick.ino](code/smart_blind_stick.ino)
 
 
 # Logic Summary
